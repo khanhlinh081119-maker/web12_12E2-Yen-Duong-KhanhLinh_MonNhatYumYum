@@ -131,9 +131,7 @@ nav ul li a:hover {
 }
 
 
-/* ========================
-   OVERVIEW SECTION
-======================== */
+
 .overview-wrapper {
     background-color:rgb(255, 255, 255);
 }
@@ -168,9 +166,6 @@ nav ul li a:hover {
 }
 
 
-/* ========================
-   TRADITIONAL DISHES SECTION
-======================== */
 .dishes-overview {
   font-size: 25px;
   text-align: center;
@@ -207,14 +202,11 @@ nav ul li a:hover {
 }
 
 
-/* ========================
-   RESTAURANT SECTION
-======================== */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
 
 :root {
-    --primary-color: #c0392b; /* Màu đỏ đô, trang nhã hơn */
-    --secondary-color: #2c3e50; /* Màu chữ đậm, chuyên nghiệp */
+    --primary-color: #c0392b; 
+    --secondary-color: #2c3e50; 
     --background-light: #f9f9f9;
     --card-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
@@ -247,7 +239,7 @@ section {
 
 .restaurant-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Bố cục lưới tự động */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 25px;
     max-width: 1200px;
     margin: 0 auto;
@@ -285,11 +277,11 @@ section {
     margin-bottom: 12px;
 }
 
-/* Nút Chi tiết (Button đơn giản, đẹp) */
+
 .btn-detail {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #3498db; /* Màu xanh dương hiện đại */
+    background-color: #3498db; 
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -297,7 +289,7 @@ section {
 }
 
 .btn-detail:hover {
-    background-color: #2980b9; /* Thay đổi màu khi hover */
+    background-color: #2980b9; 
 }
 
 .btn-detail.primary {
@@ -354,7 +346,7 @@ section {
 .form-group input:focus,
 .form-group select:focus {
     border-color: var(--primary-color);
-    outline: 2px solid rgba(var(--primary-color), 0.2); /* Hiệu ứng focus nhẹ */
+    outline: 2px solid rgba(var(--primary-color), 0.2); 
 }
 
 .form-group i {
@@ -376,7 +368,6 @@ section {
     margin-bottom: 0;
 }
 
-/* Nút Gửi (Submit Button) */
 .submit-btn {
     width: 100%;
     padding: 12px;
@@ -391,12 +382,10 @@ section {
 }
 
 .submit-btn:hover {
-    background-color: #a93226; /* Thay đổi màu khi hover */
+    background-color: #a93226; 
 }
 
-/* ========================
-   PERSONAL INFO FORM
-======================== */
+
 .contact-form-section {
   background-color: #fff;
   padding: 50px 20px;
@@ -460,9 +449,7 @@ section {
 }
 
 
-/* ========================
-   CONTACT SECTION
-======================== */
+
 .contact-content {
   display: flex;
   flex-wrap: wrap;
@@ -519,9 +506,7 @@ section {
 }
 
 
-/* ========================
-   RESPONSIVE
-======================== */
+
 @media (max-width: 768px) {
   .overview-grid, .dish-grid, .restaurant-container, .contact-content {
     flex-direction: column;
